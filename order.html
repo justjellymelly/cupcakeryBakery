@@ -1,0 +1,74 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Melody Street">
+    <meta name="email" content="stre0071@algonquinlive.com">
+    <meta name="date" content="">
+    <!-- all images from pixabay-->
+
+    <link rel="stylesheet" type="text/css" href="bakery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Istok-web">
+    <title> Order</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon2.png">
+
+</head>
+<body>
+<div class="sticky">
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Our menu</a>
+    <a href="order.html">Order form</a>
+    <a href="order.html#contact">Contact us</a>
+    </nav>
+</div>
+<main>
+    <div>
+    <h3 class="centered">Order Form</h3>
+    <img class="leftfloat" id="birthdayCupcakes" src="images/birthday-cupcakes.jpg" alt="birthday cupcakes">
+    <img class="rightfloat" id="customCake" src="images/custom-cake.jpg" alt="rainbow cake">
+    <form id="form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name"><br><br>
+
+        <p>What type is your order?</p>
+
+        <input type="checkbox" id="cupcakes" name="cupcakes" value="Cupcakes">
+        <label for="cupcakes">Cupcake Order</label><br>
+        <input type="checkbox" id="cookies" name="cookies" value="Cookies">
+        <label for="cupcakes">Cookie Order</label><br>
+        <input type="checkbox" id="donuts" name="donuts" value="Donuts">
+        <label for="cupcakes">Donut Order</label><br>
+        <input type="checkbox" id="cake" name="cake" value="Cake">
+        <label for="cake">Custom Cake</label><br>
+        <input type="checkbox" id="other" name="other" value="Other">
+        <label for="other">Other</label><br>
+
+        <p>Tell us more about it, give as many details as you can.</p>
+        <textarea name="details" rows="5" cols="50">Give details here</textarea><br><br>
+
+        <p>How can we contact you?</p>
+        <label for="email">E-mail:</label>
+        <input type="text" id="email"><br>
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone"><br>
+
+        <input type="submit" value="Submit"><br>
+
+    </form>
+    </div>
+
+    <div id="contact">
+        <h3>Contact us</h3>
+        <p id="address">
+            123 whatever Street<br>
+            Ottawa, ON<br>
+            A1B 2C3<br>
+        </p>
+        <p> have any questions? <a href="mailto:cupcakerybakery@email.com">e-mail us</a> or call us at (123) 555-1234</p>
+    </div>
+
+</main>
+</body>
+<footer>
+    <a href=order.html#contact>contact us</a>
+</footer>

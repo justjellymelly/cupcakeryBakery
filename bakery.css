@@ -1,0 +1,279 @@
+/*colours:
+        pink for nav & footer: #ef8989
+        off-white: #f8f6f3
+        blue: #d9fdf9
+        grey: rgb(50,50,50)
+
+*/
+
+
+html body {
+    margin:0;
+    padding: 0;
+    font-family:Poppins, Istok-web, Arial, Helvetica, sans-serif;
+    background-color: #f8f6f3;
+    color:rgb(50, 50, 50);
+}
+
+/* home header */
+
+header{
+    margin:0;
+    padding:0;
+}
+header img{
+    width:100%;
+    height:300px;
+    object-fit: cover;
+    margin:0;
+}
+.headImage {
+    position: relative;
+    width:100%;
+    margin-bottom:0;
+}
+.headerTitle {
+    z-index: 100;
+    color:#f8f6f3;
+    position:absolute;
+    font-size:50px;
+    white-space: nowrap;
+    font-family:Poppins, sans-serif;
+    font-style:bold;
+    text-transform: uppercase;
+    text-align:center;
+    text-decoration: overline underline;
+    text-underline-offset: 40px;
+    text-shadow:5px 5px 20px rgb(37,38,38);
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+/* nav/ footer / things every page has */
+
+nav, nav a, footer, footer a {
+    background-color: #ef8989;
+    color:#f8f6f3;
+    text-decoration: none;
+    text-align:center;
+    
+}
+
+p a{
+    color:rgb(50,50,50);
+    text-underline-offset: 10%;
+}
+
+
+nav {
+    padding:10px 0px;
+    margin-top: -1%;
+    position:relative;
+    z-index: 1;
+}
+nav a{
+    padding: 10px;
+}
+
+
+.sticky{    
+    width:100%;
+    position:-webkit-sticky;
+    position: sticky;
+    top:0px;
+}
+
+nav a:hover{
+    text-decoration: underline overline;
+    text-underline-offset: 30%;
+}
+
+footer {
+    padding:5px;
+}
+footer a:hover{
+    text-decoration: underline overline;
+    text-underline-offset: 30%;
+}
+
+/* home page */
+main {
+    padding-top:30px;
+    padding-left:10px;
+}
+
+section {
+    font-size: 20px;
+    background: #f8f6f3;;
+    padding: 5px;
+}
+
+section img{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border: 5px dotted #92ddfa;
+}
+
+.rightfloat{
+    float:right;
+    border-radius:50%;
+}
+
+.leftfloat{
+    float:left;
+    border-radius:50%;
+}
+
+
+#section2list{
+    padding-left:280px;
+}
+
+
+h3 {
+    text-transform: uppercase;
+}
+
+h4{
+    line-height: 0%;
+}
+ul{
+    margin-top:0;
+}
+
+/* menu page */
+
+.table {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:0 0 5px 5px;
+    margin-bottom:20px;    
+    width:40%;
+}
+
+.table td:first-child {
+    border-left: 1px solid lightgrey;
+    border-top: none;
+    padding: 4px 1px;
+}
+
+
+.table td:last-child {
+    border-right: 1px solid lightgrey;
+    border-top: none;
+    padding: 4px 1px;
+}
+
+
+
+.table tr:nth-child(even){
+    background-color: rgb(228, 228, 228);
+}
+#menuTitle{
+    background: #d3edf8;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius: 5px 5px  0 0;
+    /* width:40%; */
+    align-content: center;
+    margin:auto;
+    margin-bottom:0;
+    border:1px solid lightgray;
+    border-bottom: none;
+}
+
+#botRow{
+    border-bottom:1px solid lightgrey;
+    border-radius: 0 0 5px 5px;
+    border-right:1px solid lightgrey;
+}
+
+
+.centered{
+    text-align: center;
+}
+
+h3{
+    text-decoration: underline;
+    text-underline-offset: 20%;
+}
+
+/* the table the images are in */
+#leftGal{
+    float:left;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+#rightGal{
+    float: right;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+/* images in the gallery */
+.galleryLeft{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    z-index: -1;
+    border: 5px dotted #92ddfa;
+    border-radius:50%;
+}
+
+.galleryRight{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+    z-index: -1;
+    border: 5px dotted #92ddfa;
+    border-radius:50%;
+}
+
+/* custom order page */
+#birthdayCupcakes{
+    width:250px;
+    height:250px;
+    padding:10px;
+    position:relative;
+    margin-left:10%;
+    margin-top:100px;
+    z-index: -1;
+    border: 5px dotted #92ddfa;
+}
+
+#customCake{
+    width:250px;
+    height:250px;
+    padding:10px;
+    position:relative;
+    margin-right:10%;
+    margin-top:100px;
+    z-index: -1;
+    border: 5px dotted #92ddfa;
+}
+
+#form {
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea{
+    font-family:Istok-web, Arial, Helvetica, sans-serif;
+}
+#contact{
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom:0;
+    margin-left:-10px;
+    width:auto;
+}
